@@ -24,3 +24,15 @@ Load data from [CartoDB](http://blog.thematicmapping.org/2014/06/syncing-your-in
 L.instagram('cartodb_url_with_sql').addTo(map); 
 ```
 
+[See example](http://blog.thematicmapping.org/2014/06/showing-instagram-photos-and-videos-on.html)
+
+CSS
+---
+
+Photo marker CSS:
+```CSS
+.leaflet-marker-instagram { 
+  border: 2px solid #fff; 
+  box-shadow: 3px 3px 10px #888; 
+}
+```
