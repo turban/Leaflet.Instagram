@@ -1,7 +1,7 @@
 Leaflet.Instagram
 =================
 
-Plugin to show Instagram photos and videos on your Leaflet map. 
+Plugin to show Instagram photos and videos on your Leaflet map. [Read more](http://blog.thematicmapping.org/2014/06/showing-instagram-photos-and-videos-on.html)
 
 Requires
 --------
