@@ -1,0 +1,16 @@
+{
+    "name": "Leaflet.Instagram",
+    "description": "Plugin to show Instagram photos and videos on a Leaflet map.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/turban/Leaflet.Instagram",
+    "authors": [
+        "Bjorn Sandvik <bjorn@thematicmapping.org>"
+    ],
+    "keywords": ["Leaflet", "Instagram"],
+    "main": "dist/Leaflet.Instagram.js",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "lib"
+    ]
+}
