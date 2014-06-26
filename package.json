@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "git://github.com/turban/Leaflet.Instagram.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

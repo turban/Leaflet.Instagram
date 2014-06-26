@@ -10,7 +10,6 @@
     "main": "dist/Leaflet.Instagram.js",
     "license": "MIT",
     "ignore": [
-        "**/.*",
-        "lib"
+        "**/.*"
     ]
 }

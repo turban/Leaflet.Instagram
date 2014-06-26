@@ -24,9 +24,5 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
-  grunt.registerMultiTask('build', 'Log stuff.', function() {
-    grunt.log.writeln(this.target + ': ' + this.data);
-  });
-
 };
 
