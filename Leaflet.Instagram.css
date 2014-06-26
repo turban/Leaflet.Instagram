@@ -1,0 +1,68 @@
+/* Marker */
+.leaflet-marker-instagram { 
+	border: 2px solid #fff; 
+	box-shadow: 3px 3px 10px #888; 
+}	
+
+/* Popup */
+.leaflet-popup-instagram a.leaflet-popup-close-button {
+	top: 0px;
+	right: -13px;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 12px;
+	width: 15px;
+	height: 15px;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	color: #555;	
+}
+.leaflet-popup-instagram a.leaflet-popup-close-button:hover {
+	color: #333;
+	background-color: #eee;
+}
+.leaflet-popup-instagram .leaflet-popup-content-wrapper { 
+	padding: 0 0 1px 0;
+	border-radius: 6px;
+}
+.leaflet-popup-instagram .leaflet-popup-content { 
+	margin: 13px 0;
+}
+.leaflet-popup-instagram img, 
+.leaflet-popup-instagram video {
+	width: 301px;
+	height: 301px;
+	border-radius: 4px 4px 0 0;
+}
+.leaflet-popup-instagram p {
+	margin: 5px 10px 0 10px;
+}
+
+/* Cluster */
+.leaflet-cluster-instagram img {
+	border: 2px solid #fff; 
+	box-shadow: 3px 3px 10px #888; 
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+.leaflet-cluster-instagram b {
+	position: absolute;
+	top: -7px;
+	left: 34px;
+	color: #555;
+	background-color: #fff;
+	border-radius: 8px;
+	height: 12px;
+	min-width: 12px;
+	line-height: 12px;
+	text-align: center;
+	padding: 3px;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+.leaflet-retina .leaflet-cluster-instagram img {
+	width: 80px;
+	height: 80px;
+}
+.leaflet-retina .leaflet-cluster-instagram b {
+	left: 68px;
+}
