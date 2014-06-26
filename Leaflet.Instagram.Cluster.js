@@ -1,6 +1,6 @@
 L.Instagram.Cluster = L.MarkerClusterGroup.extend({
 	options: {
-		instagram: L.instagram,		
+		featureGroup: L.instagram,		
 		maxClusterRadius: 95,		
 		showCoverageOnHover: false,
 		iconCreateFunction: function(cluster) {
@@ -17,7 +17,7 @@ L.Instagram.Cluster = L.MarkerClusterGroup.extend({
 	initialize: function (url, options) {	
 		options = L.Util.setOptions(this, options);
 		L.MarkerClusterGroup.prototype.initialize.call(this);
-		this._instagram = options.instagram(url, options);
+		this._instagram = options.featureGroup(url, options);
 	},
 
 	onAdd: function (map) {
