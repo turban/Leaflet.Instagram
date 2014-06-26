@@ -61,6 +61,6 @@ L.Instagram(url, options)
 | Option       | Type           | Default                                                       | Description                         |
 | ------------ | -------------- | ------------------------------------------------------------- | ----------------------------------- |
 | icon         | Object         | { iconSize: [40, 40], className: 'leaflet-marker-instagram' } | [Icon options](http://leafletjs.com/reference.html#icon-options)                        |
-| popup        | Object         | { className: 'leaflet-popup-instagram' }                      | P[Popup options](http://leafletjs.com/reference.html#popup-options)                       |
+| popup        | Object         | { className: 'leaflet-popup-instagram' }                      | [Popup options](http://leafletjs.com/reference.html#popup-options)                       |
 | template     | Object         | { image: '...', video: '...' }                                | [Template string for image and video](http://leafletjs.com/reference.html#util-template) |
 | onClick      | Function       | Open popoup with image/video.                                 | Image click handler                 |

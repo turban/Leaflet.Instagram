@@ -6,15 +6,17 @@ L.Instagram = L.FeatureGroup.extend({
 		},
 		popup: {
 			className: 'leaflet-popup-instagram'
-		},			
-		template: {
-			image: '<a href="{link}" title="View on Instagram"><img src="{image_standard}"/></a><p>{caption}</a></p>',
-			video: '<a href="{link}" title="View on Instagram"><video autoplay controls poster="{image_standard}"><source src="{video_standard}" type="video/mp4"/></video></a><p>{caption}</a></p>'				
-		},
+		},		
+		imageTemplate: '<a href="{link}" title="View on Instagram"><img src="{image_standard}"/></a><p>{caption}</a></p>',
+		videoTemplate: '<a href="{link}" title="View on Instagram"><video autoplay controls poster="{image_standard}"><source src="{video_standard}" type="video/mp4"/></video></a><p>{caption}</a></p>', 	
 		onClick: function(evt) {
 			var image    = evt.layer.image,
 			    options  = this.options,
-			    template = options.template[image.type];
+			    template = options.imageTemplate;
+
+			if (image.type === 'video' && (!!document.createElement('video').canPlayType('video/mp4; codecs=avc1.42E01E,mp4a.40.2'))) {
+				template = options.videoTemplate;
+			}
 
 			evt.layer.bindPopup(L.Util.template(template, image), options.popup).openPopup();
 		}
