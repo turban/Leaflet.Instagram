@@ -8,8 +8,12 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'dist/<%= pkg.name %>.js'
+        files: {
+          'dist/<%= pkg.name %>.js': 'src/<%= pkg.name %>.js',
+          'dist/<%= pkg.name %>.Cluster.js': ['src/<%= pkg.name %>.js', 'src/<%= pkg.name %>.Cluster.js'],
+          'dist/<%= pkg.name %>.Fancybox.js': ['src/<%= pkg.name %>.js', 'src/<%= pkg.name %>.Fancybox.js'],
+          'dist/<%= pkg.name %>.Fancybox.Cluster.js': ['src/<%= pkg.name %>.js', 'src/<%= pkg.name %>.Fancybox.js', 'src/<%= pkg.name %>.Cluster.js'],          
+        }
       }
     }
   });
@@ -20,4 +24,9 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
+  grunt.registerMultiTask('build', 'Log stuff.', function() {
+    grunt.log.writeln(this.target + ': ' + this.data);
+  });
+
 };
+
