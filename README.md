@@ -1,10 +1,8 @@
-Leaflet.Instagram
-=================
+## Leaflet.Instagram
 
 Plugin to show Instagram photos and videos on your Leaflet map. [Read more](http://blog.thematicmapping.org/2014/06/showing-instagram-photos-and-videos-on.html)
 
-Requires
---------
+### Requires
 - [Leaflet](http://leafletjs.com/)
 - [reqwest](https://github.com/ded/reqwest)
 
@@ -15,9 +13,7 @@ Fancybox also requires:
 - [jQuery](http://jquery.com/)
 - [fancyBox](http://fancyapps.com/fancybox/)
 
-Usage
------
-
+### Usage
 Load data from [Instagram API](http://instagram.com/developer/):
 ```JavaScript
 L.instagram('instagram_api_url_with_access_token').addTo(map);
@@ -53,10 +49,9 @@ L.instagram.cluster('cartodb_url_with_sql', {
 
 [See example](http://turban.github.io/Leaflet.Instagram/examples/fancybox-cluster.html)
 
-Options
--------
+### Options
 
-L.Instagram(url, options)
+#### L.Instagram(url, options)
 
 | Option             | Type           | Default                                                       | Description                         |
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
@@ -66,7 +61,7 @@ L.Instagram(url, options)
 | videoTemplate      | String         | [See source code](https://github.com/turban/Leaflet.Instagram/blob/gh-pages/Leaflet.Instagram.js)                                               | [Template string for image and video](http://leafletjs.com/reference.html#util-template) |
 | onClick            | Function       | Open popoup with image/video.                                 | Image click handler                 |
 
-L.Instagram.Cluster(url, options)
+#### L.Instagram.Cluster(url, options)
 
 | Option             | Type           | Default                                                       | Description                         |
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
@@ -75,7 +70,7 @@ L.Instagram.Cluster(url, options)
 
 You can also use all [Leaflet.markercluster options](https://github.com/Leaflet/Leaflet.markercluster#all-options).
 
-L.Instagram.Fancybox(url, options)
+#### L.Instagram.Fancybox(url, options)
 
 | Option             | Type           | Default                                                       | Description                         |
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
