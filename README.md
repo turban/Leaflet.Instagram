@@ -71,7 +71,13 @@ L.Instagram.Cluster(url, options)
 | Option             | Type           | Default                                                       | Description                         |
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
 | featureGroup       | Object         | L.instagram                                                   | Alternative: L.instagram.fancybox   |
-| iconCreateFunction | Function       | Create icon showing number of images in cluster               | Function to create cluster icon     |
+| iconCreateFunction | Function       | Icon showing number of images in cluster                      | Function to create cluster icon     |
 
 You can also use all [Leaflet.markercluster options](https://github.com/Leaflet/Leaflet.markercluster#all-options).
 
+L.Instagram.Fancybox(url, options)
+
+| Option             | Type           | Default                                                       | Description                         |
+| -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
+| fancybox           | Object         | See source code                                               | [Fancybox options](http://fancyapps.com/fancybox/#docs)                    |
+| onClick            | Function       | Open lightbox with image/video                                | Image click handler                 |
