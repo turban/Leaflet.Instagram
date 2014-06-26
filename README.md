@@ -2,7 +2,7 @@
 
 Plugin to show Instagram photos and videos on your Leaflet map. [Read more](http://blog.thematicmapping.org/2014/06/showing-instagram-photos-and-videos-on.html)
 
-![Image of map with Instagram photos](img/popup-cluster.png)
+[![Image of map with Instagram photos](img/popup-cluster.png](http://turban.github.io/Leaflet.Instagram/examples/popup-cluster.html)
 
 ### Requires
 - [Leaflet](http://leafletjs.com/)
