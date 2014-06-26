@@ -28,7 +28,7 @@ L.instagram('cartodb_url_with_sql').addTo(map);
 
 [See example](http://turban.github.io/Leaflet.Instagram/examples/popup.html)
 
-With image cluster
+With image cluster:
 ```JavaScript
 L.instagram.cluster('cartodb_url_with_sql').addTo(map); 
 ```
