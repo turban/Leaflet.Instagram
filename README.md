@@ -79,5 +79,5 @@ L.Instagram.Fancybox(url, options)
 
 | Option             | Type           | Default                                                       | Description                         |
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
-| fancybox           | Object         | [See source code](https://github.com/turban/Leaflet.Instagram/blob/gh-pages/Leaflet.Instagram.Cluster.js)                                               | [Fancybox options](http://fancyapps.com/fancybox/#docs)                    |
+| fancybox           | Object         | [See source code](https://github.com/turban/Leaflet.Instagram/blob/gh-pages/Leaflet.Instagram.Fancybox.js)                                               | [Fancybox options](http://fancyapps.com/fancybox/#docs)                    |
 | onClick            | Function       | Open lightbox with image/video                                | Image click handler                 |
