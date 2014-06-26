@@ -5,19 +5,15 @@ Plugin to show Instagram photos and videos on your Leaflet map. [Read more](http
 
 Requires
 --------
-[Leaflet](http://leafletjs.com/)
-
-[reqwest](https://github.com/ded/reqwest)
+- [Leaflet](http://leafletjs.com/)
+- [reqwest](https://github.com/ded/reqwest)
 
 Image cluster also requires: 
-
-[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
+- [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
 
 Fancybox also requires:
-
-[jQuery](http://jquery.com/)
-
-[fancyBox](http://fancyapps.com/fancybox/)
+- [jQuery](http://jquery.com/)
+- [fancyBox](http://fancyapps.com/fancybox/)
 
 Usage
 -----

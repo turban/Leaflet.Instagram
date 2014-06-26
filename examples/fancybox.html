@@ -22,7 +22,7 @@
 
 	var map = L.map('map', {
 		maxZoom: 15
-	}).setView([59.25, 5.84], 12);
+	}).fitBounds([[59.22, 5.78], [59.28,5.89]]);
 
 	L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}', {
 		attribution: '&copy; <a href="http://kartverket.no/">Kartverket</a>'

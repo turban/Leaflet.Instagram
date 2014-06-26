@@ -76,7 +76,8 @@ L.Instagram = L.FeatureGroup.extend({
 			image_standard: image.images.standard_resolution.url,
 			caption:        (image.caption) ? image.caption.text : '',
 			type: 			image.type,			
-			video_standard: (image.type === 'video') ? image.videos.standard_resolution.url : null 
+			video_standard: (image.type === 'video') ? image.videos.standard_resolution.url : null,
+			link: 			image.link
 		};
 	},
 
