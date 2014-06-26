@@ -78,3 +78,9 @@ You can also use all [Leaflet.markercluster options](https://github.com/Leaflet/
 | -------------------| -------------- | ------------------------------------------------------------- | ----------------------------------- |
 | fancybox           | Object         | [See source code](https://github.com/turban/Leaflet.Instagram/blob/gh-pages/Leaflet.Instagram.Fancybox.js)                                               | [Fancybox options](http://fancyapps.com/fancybox/#docs)                    |
 | onClick            | Function       | Open lightbox with image/video                                | Image click handler                 |
+
+### License
+
+The MIT License (MIT)
+
+Important! The license covers my own code, and not the code in the lib folder. [Fancybox is licensed under a CC BY-NC 3.0 license](http://www.fancyapps.com/fancybox/#license). 
