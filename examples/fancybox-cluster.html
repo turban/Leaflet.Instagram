@@ -33,7 +33,7 @@
 	}).addTo(map);
 
 	L.instagram.cluster('http://turban.cartodb.com/api/v2/sql?q=SELECT * FROM instagram WHERE the_geom %26%26 ST_SetSRID(ST_MakeBox2D(ST_Point(5.727, 59.124), ST_Point(5.924, 59.305)), 4326)', {
-		instagram: L.instagram.fancybox
+		featureGroup: L.instagram.fancybox
 	}
 	).addTo(map); 
 
